@@ -8,11 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		CD31483826126378009D1274 /* MobilePOAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD31483726126378009D1274 /* MobilePOAppApp.swift */; };
-		CD31483A26126378009D1274 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD31483926126378009D1274 /* ContentView.swift */; };
 		CD31483C26126379009D1274 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD31483B26126379009D1274 /* Assets.xcassets */; };
 		CD31483F26126379009D1274 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD31483E26126379009D1274 /* Preview Assets.xcassets */; };
 		CD31484A26126379009D1274 /* MobilePOAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD31484926126379009D1274 /* MobilePOAppTests.swift */; };
 		CD31485526126379009D1274 /* MobilePOAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD31485426126379009D1274 /* MobilePOAppUITests.swift */; };
+		CD314870261265B8009D1274 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD314865261265B8009D1274 /* MainView.swift */; };
+		CD314871261265B8009D1274 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD314866261265B8009D1274 /* Order.swift */; };
+		CD314872261265B8009D1274 /* POListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD314867261265B8009D1274 /* POListView.swift */; };
+		CD314873261265B8009D1274 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD314868261265B8009D1274 /* LoginView.swift */; };
+		CD314874261265B8009D1274 /* OrderDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD314869261265B8009D1274 /* OrderDetail.swift */; };
+		CD314875261265B8009D1274 /* OrderDetailData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD31486A261265B8009D1274 /* OrderDetailData.swift */; };
+		CD314877261265B8009D1274 /* OrderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD31486C261265B8009D1274 /* OrderData.swift */; };
+		CD314878261265B8009D1274 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD31486D261265B8009D1274 /* Helper.swift */; };
+		CD314879261265B8009D1274 /* PODetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD31486E261265B8009D1274 /* PODetailView.swift */; };
+		CD31487A261265B8009D1274 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD31486F261265B8009D1274 /* ViewRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +44,6 @@
 /* Begin PBXFileReference section */
 		CD31483426126378009D1274 /* MobilePOApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobilePOApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD31483726126378009D1274 /* MobilePOAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobilePOAppApp.swift; sourceTree = "<group>"; };
-		CD31483926126378009D1274 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CD31483B26126379009D1274 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD31483E26126379009D1274 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CD31484026126379009D1274 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +53,16 @@
 		CD31485026126379009D1274 /* MobilePOAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobilePOAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD31485426126379009D1274 /* MobilePOAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobilePOAppUITests.swift; sourceTree = "<group>"; };
 		CD31485626126379009D1274 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD314865261265B8009D1274 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		CD314866261265B8009D1274 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		CD314867261265B8009D1274 /* POListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = POListView.swift; sourceTree = "<group>"; };
+		CD314868261265B8009D1274 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		CD314869261265B8009D1274 /* OrderDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderDetail.swift; sourceTree = "<group>"; };
+		CD31486A261265B8009D1274 /* OrderDetailData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderDetailData.swift; sourceTree = "<group>"; };
+		CD31486C261265B8009D1274 /* OrderData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderData.swift; sourceTree = "<group>"; };
+		CD31486D261265B8009D1274 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		CD31486E261265B8009D1274 /* PODetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PODetailView.swift; sourceTree = "<group>"; };
+		CD31486F261265B8009D1274 /* ViewRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +113,17 @@
 		CD31483626126378009D1274 /* MobilePOApp */ = {
 			isa = PBXGroup;
 			children = (
+				CD31486D261265B8009D1274 /* Helper.swift */,
+				CD314868261265B8009D1274 /* LoginView.swift */,
+				CD314865261265B8009D1274 /* MainView.swift */,
+				CD314866261265B8009D1274 /* Order.swift */,
+				CD31486C261265B8009D1274 /* OrderData.swift */,
+				CD314869261265B8009D1274 /* OrderDetail.swift */,
+				CD31486A261265B8009D1274 /* OrderDetailData.swift */,
+				CD31486E261265B8009D1274 /* PODetailView.swift */,
+				CD314867261265B8009D1274 /* POListView.swift */,
+				CD31486F261265B8009D1274 /* ViewRouter.swift */,
 				CD31483726126378009D1274 /* MobilePOAppApp.swift */,
-				CD31483926126378009D1274 /* ContentView.swift */,
 				CD31483B26126379009D1274 /* Assets.xcassets */,
 				CD31484026126379009D1274 /* Info.plist */,
 				CD31483D26126379009D1274 /* Preview Content */,
@@ -259,7 +286,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD31483A26126378009D1274 /* ContentView.swift in Sources */,
+				CD314878261265B8009D1274 /* Helper.swift in Sources */,
+				CD314874261265B8009D1274 /* OrderDetail.swift in Sources */,
+				CD31487A261265B8009D1274 /* ViewRouter.swift in Sources */,
+				CD314875261265B8009D1274 /* OrderDetailData.swift in Sources */,
+				CD314873261265B8009D1274 /* LoginView.swift in Sources */,
+				CD314870261265B8009D1274 /* MainView.swift in Sources */,
+				CD314877261265B8009D1274 /* OrderData.swift in Sources */,
+				CD314872261265B8009D1274 /* POListView.swift in Sources */,
+				CD314871261265B8009D1274 /* Order.swift in Sources */,
+				CD314879261265B8009D1274 /* PODetailView.swift in Sources */,
 				CD31483826126378009D1274 /* MobilePOAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
